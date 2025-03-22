@@ -1,104 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biker Jone</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
-<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-<!-- poppins font -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<style>
-    .font-popins{
-        font-family: "Poppins", sans-serif;
-    }
-</style>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- poppins font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        .font-popins {
+            font-family: "Poppins", sans-serif;
+        }
+    </style>
 </head>
+
 <body class="font-popins">
     <!-- header section -->
     <header class="">
-        <div class="navbar bg-base-100 shadow-sm bg-black-600 ">
-            <div class="navbar-start">
-              <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+        <div class="navbar bg-base-100 shadow-sm bg-black-600 sticky top-0   z-10   ">
+            <div class="navbar-start ">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow ">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Shop</a></li>
+                        <li><a href="">News</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
                 </div>
-                <ul
-                  tabindex="0"
-                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow ">
-                  <li><a href="">Home</a></li>
-                  <li><a href="">Shop</a></li>
-                  <li><a href="">News</a></li>
-                  <li><a href="">Contact</a></li>
-                </ul>
-              </div>
-              <p class="font-bold  md:text-3xl mb:text-bold lg:text-bold lg:text-4xl">Bike Dekho</p>
+                <p class="font-bold  md:text-3xl mb:text-bold lg:text-bold lg:text-4xl">Bike Dekho</p>
             </div>
             <div class="navbar-center hidden lg:flex relative left-100">
-              <ul class="menu menu-horizontal px-1 text-2xl gap-10">
-                <li><a href="">Home</a></li>
-                  <li><a href="">Shop</a></li>
-                  <li><a href="">News</a></li>
-                  <li><a href="">Contact</a></li>
-              </ul>
+                <ul class="menu menu-horizontal px-1 text-2xl gap-10">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Shop</a></li>
+                    <li><a href="">News</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
             </div>
             <div class="navbar-end">
-             <a class="btn bg-[#E76F51]  text-white text-xl px-6 py-6" href="">Login</a>
-            </div> 
+                <a class="btn bg-[#E76F51]  text-white text-xl px-6 py-6" href="">Login</a>
+            </div>
         </div>
-          <div class=" bg-[#E76F511A] grid grid-cols-1 lg:grid-cols-2 place-items-center   ">
+        <div class=" bg-[#E76F511A] grid grid-cols-1 lg:grid-cols-2 place-items-center   ">
             <div class=" w-150 p-6 ">
                 <h1 class="font-bold text-6xl lg:text-7xl md:text-6xl mb-3">Ride-on R15 V4 with Smile</h1>
-                <p class="text-1xl text-justify">Amet minim mollit non deserunt ullamco 
+                <p class="text-1xl text-justify">Amet minim mollit non deserunt ullamco
                     est sit aliqua dolor do amet sint. Vel cit officia consequat duis enim velit mollit.</p>
-                   <button class="btn bg-orange-500 text-white lg:mt-5 lg:py-8 mt-4 py-7 text-xl text-2xl">Purchase</button>
+                <button
+                    class="btn bg-orange-500 text-white lg:mt-5 lg:py-8 mt-4 py-7 text-xl text-2xl">Purchase</button>
             </div>
-            
-                <div class="carousel w-150  p-6">
-                    <div id="slide1" class="carousel-item relative w-150">
-                      <img
-                        src="images/slider/bike1.png"
-                        class="w-full " />
-                      <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+
+            <div class="carousel w-150  p-6">
+                <div id="slide1" class="carousel-item relative w-150">
+                    <img src="images/slider/bike1.png" class="w-full " />
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                         <a href="#slide4" class="btn btn-circle">❮</a>
                         <a href="#slide2" class="btn btn-circle">❯</a>
-                      </div>
                     </div>
-                    <div id="slide2" class="carousel-item relative w-150">
-                      <img
-                        src="images/slider/bike2.png"
-                        class="w-full" />
-                      <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                </div>
+                <div id="slide2" class="carousel-item relative w-150">
+                    <img src="images/slider/bike2.png" class="w-full" />
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                         <a href="#slide1" class="btn btn-circle">❮</a>
                         <a href="#slide3" class="btn btn-circle">❯</a>
-                      </div>
                     </div>
-                    <div id="slide3" class="carousel-item relative w-150">
-                      <img
-                        src="images/slider/bike3.png"
-                        class="w-full" />
-                      <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                </div>
+                <div id="slide3" class="carousel-item relative w-150">
+                    <img src="images/slider/bike3.png" class="w-full" />
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                         <a href="#slide2" class="btn btn-circle">❮</a>
                         <a href="#slide4" class="btn btn-circle">❯</a>
-                      </div>
                     </div>
-                    <div id="slide4" class="carousel-item relative w-150">
-                      <img
-                        src="images/slider/bike4.png"
-                        class="w-full" />
-                      <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                </div>
+                <div id="slide4" class="carousel-item relative w-150">
+                    <img src="images/slider/bike4.png" class="w-full" />
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                         <a href="#slide3" class="btn btn-circle">❮</a>
                         <a href="#slide1" class="btn btn-circle">❯</a>
-                      </div>
                     </div>
-                  </div>
+                </div>
+            </div>
 
-          </div>
+        </div>
     </header>
     <main class="mx-24">
-        
+        <!-- fetured bikes in this year -->
+        <div>
+            <div class="text-center mt-10 mb-10">
+                <h1 class="font-bold text-3xl md:text-4xl lg:text-5xl">Fetured Bikes In This Year</h1>
+                <p class="text-lg md:text-2xl lg:text-3xl mt-3 text-[#E76F51]">Fetured Bikes In This Year</p>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 place-items-center mb-30 gap-10">
+                <img src="images/others/feature-bike.png" alt="">
+                <img src="images/others/extrabike.png" alt="">
+                <img src="images/slider/bike3.png" alt="">
+
+            </div>
+        </div>
+        <!-- latest News -->
+      <div>
+        <h1 class="text-5xl font-bold text-center mb-15">latest News</h1><br>
+        <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 place-items-center mb-30 gap-10">
+            
+            <div class="card bg-base-100 w-96 shadow-sm">
+                <figure>
+                    <img src="images/others/latest1.png" alt="Ducati XDIAVEL-75" />
+                </figure>
+                <div class="card-body">
+                    <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                    <p class="text-justify">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptates saepe ex vero, quidem magni commodi quam id ducimus quasi!
+                    </p>
+                    <div class="card-actions">
+                        <button class="btn btn-error text-white bg-orange-500">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card bg-base-100 w-96 shadow-sm">
+                <figure>
+                    <img src="images/others/latest2.png" alt="Ducati XDIAVEL-75" />
+                </figure>
+                <div class="card-body">
+                    <h2 class="card-title">Motorcycles & Scooters</h2>
+                    <p class="text-justify">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptates saepe ex vero, quidem magni commodi quam id ducimus quasi!
+                    </p>
+                    <div class="card-actions">
+                        <button class="btn btn-outline btn-error">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card bg-base-100 w-96 shadow-sm">
+                <figure>
+                    <img src="images/others/latest3.png" alt="Ducati XDIAVEL-75" />
+                </figure>
+                <div class="card-body">
+                    <h2 class="card-title">2021 Honda CBR500R</h2>
+                    <p class="text-justify">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptates saepe ex vero, quidem magni commodi quam id ducimus quasi!
+                    </p>
+                    <div class="card-actions">
+                        <button class="btn btn-outline btn-error">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div>
+        <h1>Happy Clients says</h1>
+        <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 place-items-center mb-30 gap-10">
+            
+        </div>
+      </div>
     </main>
 </body>
+
 </html>
